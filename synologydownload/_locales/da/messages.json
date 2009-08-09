@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Download Directly til din Synology Diskstation - Drevet af JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology Download Assistent"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Er du sikker på du vil downloade"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Annullér"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Download Alle Filer"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Download Alle Billeder"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Download Med Diskstation"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Fejl Under Tilføjelse Af Download"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "filer"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "billeder"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "Download Tilføjet Succesfuldt"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Træk venligst stikket ud først"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "er færdig!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Kunne ikke logge på, tjek brugernavn, password og netværksadresse til din diskstation"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "Ny opdatering tilgængelig!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Gå til udvidelser. Klik Udviklertilstand og derefter Opdater udvidelser nu"
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Tjek forbindelsen"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Tjek brugernavn og passwoed"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Tilsluttet!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Tilslutter..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Lots of console output"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Instrumentpanel"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Debug"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Diskstation Detaljer"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Eksperimentel"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Vært"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Ukorrekt Logind"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Logget ind!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Password"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Plugin valgmuligheder"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Port"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Timet ud!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Synology Download Assistant Valgmuligheder"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Brugernavn"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "altid"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "auto"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "bittorrrent netværksindstillinger"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "auto stop opgave"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "Auto stop opgave når"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP port"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "bittorrrent download indstillinger"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Aktiver DHT netværk"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Max. forbindelser tilladt per torrent"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "bittorrrent port interval"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "BitTorrent protokol kryptering"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "bittorrrent upload og download hastigheder"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Delingsratio nået"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Seeding tid nået"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Browser Integration"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "bekræft password"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "kontrolpanel"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Daglig"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Brug standard port range"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "disable"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Download"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Download Alle"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Download Billeder"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Downloader..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Download Manager"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "download tidsplan"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "download indstillinger"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "download station"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Send email notifikation når opgaven er færdig"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Filnavn"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Brug følgende port range"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "for evigt"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "Fra"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Overtag"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Overtag links"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "timer"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "ignorer"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Umiddelbart"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Maksimum Aktive Downloads"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Højeste download hastighed"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Højeste upload hastighed"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload download"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "minutter"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Elle"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Side"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "af"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Status"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Ingen downloads i download køen..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare download"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Højreklik kontekst menuer"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Indstillinger"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Arbejder..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Download Station Aktiveret"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Succesfuldt tilføjet :"
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "Til"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "oversæt"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

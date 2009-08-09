@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Descarcă direct în Synology Diskstation - alimentat de JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Asistent de descărcare Synology"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Sigur doriţi să descărcaţi ?"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Anulează"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Descarcă toate fişierele"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Descarcă toate imaginile"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Descarcă cu Diskstation"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Eroare la trimiterea solicitării"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "fişiere"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "imagini"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "Descărcare adăugată cu succes"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Vă rugăm să decuplaţi înainte"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "s-a finalizat !"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Autentificare eşuată, verificaţi utilizatorul, parola şi adresa de reţea a diskstation-ului dvs."
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "O nouă actualizare este disponibilă!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Mergeţi la extensii. Apăsaţi Mod dezvoltator şi apoi Actualizează extensii acum"
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Verifica conexiunea"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Verifică credenţialele"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "S-a conectat!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Conectare ..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "mai multe console de ieşire"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Panou de control"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Debug"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Detalii diskstation"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Experimental"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Gazdă"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Autentificare incorectă!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Autentificat!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Parolă"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Opţiuni plugin-uri"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Port"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Timp expirat!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Optiuni Asistent Descărcare Synology"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Utilizator"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "întotdeauna"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "automat"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "setări reţea bittorrent"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "oprire automată a activităţii"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "oprire automată a activităţii când"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "port UDP DHT"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "setare descărcări bittorrent"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Activare reţea DHT"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Număr maxim de conexiuni permise pe torrent"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "gama de porturi BitTorrent"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "Protocol criptare BitTorrent"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "Raţii descărcare şi încărcare BitTorrent"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Ratie Share atinge"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Timp Seeding atinge"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Integrare navigator"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "confirmare parolă"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "panou de configurare"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Zilnic"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Foloseşte gama de porturi implicită"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "dezactivează"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Descarcă"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Descarcă tot"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Imagini descărcate"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Se descarcă ..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Gestionar descărcări"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "planificare descărcări"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "setări descărcare"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "staţie descărcare"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Trimite notificare prin email după completarea sarcinii"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Nume fişier"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Folosiţi următoarea gamă de porturi"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "pentru totdeauna"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "De la"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Hi-Jack"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Legături Hi-Jack"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "ore"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "ignoră"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Imediat"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Maximul de descărcări active"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Raţie maximă descărcare"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Raţie maximă încărcare"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "descărcare megaupload"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "minute"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Sau"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Pagină"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "din"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Progres"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Nu există descărcări în aşteptare"
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "descărcare rapidshare"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Menu contextual click dreapta"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Setări"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Standby..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Staţie de descărcare activată"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Adaugat cu succes : "
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "Către"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "traduce"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

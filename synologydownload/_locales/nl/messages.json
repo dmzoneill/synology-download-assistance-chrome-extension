@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Download meteen naar uw Synology Diskstation - Mogelijk gemaakt door JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology Download Assistent"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Weet u zeker dat u dit wilt downloaden"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Annuleren"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Alle bestanden downloaden"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Download alle afbeeldingen"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Download met Diskstation"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Download-opdracht mislukt"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "bestanden"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "afbeeldingen"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "Download met succes toegevoegd"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Eerst automatisch toevoegen uitschakelen"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "is voltooid!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Inloggen mislukt, controleer gebruikersnaam, wachtwoord en netwerkadres naar uw diskstation"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "Nieuwe versie beschikbaar!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Ga naar Extensies. Klik op Ontwikkelaarmodus en dan Extensies nu bijwerken"
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Test verbinding"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Test accountgegevens"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Verbonden!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Bezig met verbinden..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Een heleboel console-uitvoer"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Controlepaneel"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Foutopsporing (Debug)"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Diskstation Details"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Experimenteel"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Hostnaam"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Inloggen mislukt!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Ingelogd!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Wachtwoord"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Plugin Opties"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Poort"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Tijdsduur verstreken!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Synology Download Assistent Opties"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Gebruikersnaam"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "altijd"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "automatisch"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "bittorrrent netwerk setting"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "stop taken automatisch"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "stop taken automatisch wanneer"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP poort"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "bittorrrent download in"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Activeer DHT netwerk"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Maximaal aantal gelijke downloaders per torrent"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "bittorrrent port range"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "BitTorrent protocol encryptie"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "bittorrrent upload en download rates"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Deel ratio reaches"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Seeding time reaches"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Browser Integratie"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "bevestig paswoord"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "controle panneel"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Dagelijks"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Gebruik standaard port range"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "deactiveer"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Downloaden"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Download alles"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Download Afbeeldingen"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Bezig met downloaden..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Download Beheerder"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "download planning"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "download intellingen"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "download station "
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Zend email notificatie wanneer taak is afgehandeld"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Bestandsnaam"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Gebruik de volgende port range"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "altijd"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "Van"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Linkgrabber"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Links automatisch toevoegen"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "uren"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "negeer"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Dadelijk"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Maximum Actieve Downloads"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Maximale download snelheid"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Maximale upload snelheid"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload download "
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "minuten"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Of"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Pagina"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "van"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Voortgang"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Geen downloads in download-wachtrij..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare download "
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Rechts klik voor context menu's"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Instellingen"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Standby..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Download Station geactiveerd"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Met succes toegevoegd : "
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "Naar"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "vertaling"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

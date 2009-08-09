@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Preuzmi u svoj Synology Diskstation - Omogućeno od JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology asistent za preuzimanje"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Jeste li sigurni da želite preuzeti"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Otkaži"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Preuzmi sve podatke"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Preuzmi sve slike"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Preuzmi sa Diskstation uređajem"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Greška pri postavi preuzimanja"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "Podaci"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "Slike"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "Uspješno dodano preuzimanje"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Molim prvo odspoji"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "Završeno!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Nemoguća prijava, provjerite korisničko ime, zaporku i mrežnu adresu Synology uređaja"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "Nova nadogradnja moguća!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Idi na dodatke. Pritisni razvijački mod i tada nadogradi dodatke"
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Provjerite vezu"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Provjerite korisničko ime/lozinku"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Spojen!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Spajanje..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Izvod konzole"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Radna ploha"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Ispravljanje pogrešaka"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Diskstation Detalji"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Experimentalno"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Domaćin"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Neispravno logiranje!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Logiran!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Zaporka"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Mogućnosti dodataka"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Port"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Isteklo!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Postavke Synology asistenta za preuzimanje"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Korisničko ime"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "Uvijek"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "automatski"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "bittorrrent mrežne postavke"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "Automatski završi zadatak"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "Automatski završi zadatak kad"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP port"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "bittorrrent postavke preuzimanja"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Omogući DHT mrežu"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Max. broj djeljitelja dopušteno po preuzimanju"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "bittorrrent doseg portova"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "Enkripcija BitTorrent protokola"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "bittorrrent slanja i preuzimanja"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Dijeljeni udio dosegne"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Vrijeme sijanja dosegne"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Integracija pretraživača"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "Potvrdi zaporku"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "Upravljačka ploča"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Dnevno"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Koristi zadani doseg portova"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "Onemogući"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Preuzimanje"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Preuzmi sve"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Preuzmi slike"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Preuzimam..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Upravitelj preuzimanja"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "Vremenski zadano preuzimanje"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "Podešenja preuzimanja"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "Stanica preuzimanja"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Pošalji e-mail nakon završetka zadataka"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Ime dokumenta"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Upotrebi slijedeći doseg portova"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "Zauvijek"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "Ob"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Preotmi"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Preotmi poveznice"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "Sati"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "ignoriraj"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Odmah"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Maximalni broj aktivnih preuzimanja"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Maksimalna brzina preuzimanja"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Maksimalna brzina povratka podataka"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload Preuzimanja"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "Mali"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Ili"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Stranica"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "Od"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Napredak"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Nema preuzimanja na čekanju"
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare preuzimanja"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Desni klik za konteksni izbornik"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Podešenja"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "U pripremi..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Stanica za preuzimanja omogućena"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Uapješno dodano :"
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "U"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "Prevedi"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

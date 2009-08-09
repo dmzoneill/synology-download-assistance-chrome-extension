@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "直接下載到您的 Synology Diskstation - Powered by JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology Download Assistant"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "您確定要下載嗎"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "取消"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "下載所有檔案"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "下載所有圖片"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "以 Diskstation 下載"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "提交下載錯誤"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "檔案"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "圖片"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "加入下載成功"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "請先 unjack"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "已完成!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "無法登入，檢查使用者名稱、密碼和到 Diskstation 的網路位址"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "新的更新可以使用!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "移至擴充功能。 按一下 [開發人員] 模式然後立即更新擴充功能"
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "檢查連線"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "檢查認證"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "已連線!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "正在連線..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "大量主控台輸出"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "儀表板"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "除錯"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Diskstation 詳細資料"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "實驗性"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "主機"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "登入不正確!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "已登入!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "密碼"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Plugin 選項"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "連接埠"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "逾時!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Synology Download Assistant 選項"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "使用者名稱"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "永遠"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "自動"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "Bittorrrent 網路設定"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "自動停止工作"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "自動停止工作次數"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP 連接埠"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "Bittorrrent 下載設定"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "啟用 DHT 網路"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "每個 Torrent 允許的最大用戶述"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "Bittorrrent 連接埠範圍"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "BitTorrent 協定加密"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "Bittorrrent 上傳和下載規則"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "達到共用率"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "達到種子時間"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "瀏覽器整合"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "確認密碼"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "控制台"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "每天"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "使用預設連接埠範圍"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "停用"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "下載"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "全部下載"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "下載圖片"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "正在下載..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "下載管理員"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "下載排程"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "下載設定"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "Download Station"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "工作完成後傳送電子郵件通知"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "檔案名稱"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "使用以下連接埠範圍"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "永遠"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "寄件者"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Hi-Jack"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Hi-Jack 連結"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "小時"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "忽略"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "立即"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "最大作用中下載"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "最大下載率"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "最大上傳率"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload 下載"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "分鐘"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "或"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "頁"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "/"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "進度"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "下載佇列中沒有下載..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare 下載"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "按右鍵內容功能表"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "設定值"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "待命..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Download Station 已啟用"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "已成功加入 : "
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "收件者"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "翻譯"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

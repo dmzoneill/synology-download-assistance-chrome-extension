@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Neposreden prenos na Synology Diskstation - podprto z JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology pomočnik za prenos datotek"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Ste prepričani, da želite prenesti datoteko"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Prekliči"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Prenese vse datotek"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Prenesi vse slik"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Prenesi z Diskstation"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Napaka pri zahtevi prenosError Submitting Download"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "datoteke"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "slike"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "Uspešno dodan prenos"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Najprej prekliči opustitev"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "je končan!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Prijava ni mogoča, preverite uporabniško ime, geslo in omrežni naslov vaše diskstation enote"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "Na voljo so nove posodobitve!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Pojdite med razširitve. Izberite razvijalski način in potem posodobite razširitev."
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Preveri povezavo"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Preveri prijavne podatke"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Povezan!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Povezujem ..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Veliko izpisa v konzoli"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Nadzorna plošča"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Razhroščevanje"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Podorbnosti o enoti Diskstation"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Testno"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Gostitelj"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Napačna prijava!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Prijava uspešna!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Geslo"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Lastnosti vtičnika"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Vrata"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Časovna omejitev je potekla!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Lastnosti Synology pomočnika za prenos datotek"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Uporabniško ime"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "vedno"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "samodejno"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "nastavitve BitTorrent omrežja"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "samodejna ustavitev opr"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "Samodejno ustavi opravilo ko"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP vrata"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "nastavitve BitTorrent prenosa"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Omogoči DHT omrežje"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Največje dovoljeno število odjemalcev na torrent"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "območje vrat BitTorrent"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "Zaščitni protokol BitTorrent"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "Območje hitrosti prenosa BitTorrent"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Stopnja deljenja doseže"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Čas deljenja doseže"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Integracija z brskalnikom"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "potrdi"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "nadzorna plošča"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "dn"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Uporabi privzeto območje vrat"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "onemogoči"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Prenesi"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Prenesi vse"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Prenesi slike"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Prenašam ..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Upravitelj prenosov"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "Urnik prenosov"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "Nastavitve prenosa"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "Postaja za prenos"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Pošlji obvestilo po elektronski pošti, ko je opravilo končano"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Ime datoteke"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Uporabi naslednjo območje vrat"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "vedno"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "od"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Prevzami"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Prevzami povezave"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "ure"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "prezri"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Takoj"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Največje število aktivnih prenosov"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Najvišja hitrost prenos"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Najvišja hitrost deljenja"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload prenos"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "minute"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "ali"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "stran"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "od"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Napredek"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "V vrsti za prenos ni opravil ..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare prenos"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Kontekstni menu desnega "
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Nastavitve"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "V pripravljenosti ..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Postaja za prenos je aktivna"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Uspešno dodan :"
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "Do"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "prevedi"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

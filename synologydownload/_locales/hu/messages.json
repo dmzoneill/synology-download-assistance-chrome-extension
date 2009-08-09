@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Közvetlen letöltés a Synology NAS-ra - JQuery támogatással!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology Letöltés Átirányító"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Biztosan le akarod tölteni?"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Mégse"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Minden állomány letöltése"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Minden kép letöltése"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Letöltés átirányítása NAS-ra"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Hiba átirányítás közben"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "fájl"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "kép"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "A letöltés sikeresen átirányítva"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Kapcsold ki először a link eltérítést"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "sikeresen letöltve!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Nem tudok belépni, ellenőrizd a felhasználói nevet, a jelszót és a NAS hálózati elérését"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "Frissítés elérhető!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Menj át Kiterjesztésekbe, majd frissítsd a bővítményt"
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Kapcsolat ellenőrzése"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Ellenőrzés"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Csatlakoztatva!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Kapcsolódás..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Konzol kimenetek"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Műszerfal"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Nyomkövetés"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "NAS részletek"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Kísérleti mód"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Elérési cím"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Hibás név vagy jelszó!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Ellenőrzés rendben!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Jelszó"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Bővítmény beállításai"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Port"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Időtúllépési hiba!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Synology Letöltés Átirányító beállítások"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Felhasználó"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "mindig"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "auto"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "bittorrrent hálózati beállítások"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "feladat automatikus leállítása"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "Feladat automatikus leállítása ekkor"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP port"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "bittorrent letöltési beállítások"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "DHT hálózat engedélyezése"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Torrentenként max. engedélyezett peer-ek száma"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "bittorrrent port tartomány"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "BitTorrent protokol titkosítás"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "bittorrrent feltöltés és letöltés arány"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Megosztási arány eléri"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Megosztási idő eléri"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Böngésző integrálás"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "jelszó ellenőrzése"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "vezérlőpult"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Napi"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Használd az alapértelmezett port tartományt"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "Tiltás"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Letöltés"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Állományok letöltése"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Képek letöltése"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Letöltés..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Letöltéskezelő"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "letöltés ütemezése"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "letöltési beállítások"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "letöltő közpon"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Feladat befejezésekor küldjön email értesítést"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Fájlnév"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Használja a következő port tartományt"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "örökké"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "Ettől"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Link eltérítés"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Linkek eltérítése"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "óra"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "figyelmen kívül "
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Azonnal"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Maximum Aktív Letöltések"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Maximális letöltési ráta"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Maximális feltöltési ráta"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload letöltés"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "per"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Vagy"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Oldal"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "/"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Letöltések folyamata"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Nincs letöltés a sorban..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare letöltés"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Jobb gombos menük"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Beállítások"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Készenlét..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Download Station Engedélyezve"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Sikeresen hozzáadva : "
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "Címzett"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "fordítás"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "Cím"
+	}
+
+}

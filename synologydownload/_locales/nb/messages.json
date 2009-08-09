@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Last ned direkte til din Synology Diskstasjon - Powered by JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology Nedlastning Assistent"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Er du sikker på at du vil laste ned?"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Avbryt"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Last ned alle filer"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Last ned alle bilder"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Last ned med Diskstasjon"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Feil under overføring av nedlastning"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "filer"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "bilder"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "Nedlastningen er lagt til"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Vennligst fjern hijack først"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "er ferdig!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Feil under innlogging, kontroller at brukernavn, passord og nettverksadresse er riktig"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "Ny oppdatering tilgjengelig!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Gå til extensions/utvidelser. Klikk utviklermodus for å oppdattere utvidelser "
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Sjekk tilkobling"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Kontroller brukerid"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Tilkoblet!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Kobler til..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Mye konsoll-utdata"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Kontrollpanel"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Debug"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Diskstasjon detaljer"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Eksperimentell"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Tjener"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Feil login!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Innlogget!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Passord"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Plugin alternativer"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Port"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Ingen kontakt (Timeout)!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Alternativer for Synology Nedlastning Assistent"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Brukernavn"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "alltid"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "auto"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "bittorrrent nettverksinstillinger"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "stopp jobb automatisk"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "Stop jobb automatisk når"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP port"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "instaiilinger for bittorrrent nedlastning"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Aktiver DHT nettverk"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Maksimum antall tillatte delere pr torrent oppnådd"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "bittorrrent port range"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "BitTorrent protokoll kryptering"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "bittorrrent opplastning og nedlastnings hastighet"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Delingsgrad når"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Delingstid når"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Integrasjon av nettleser"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "bekreft passord"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "kontrollpanel"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Daglig"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Standard port range"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "deaktiver"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Last ned"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Last ned alle"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Last ned bilder"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Laster ned..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Kontroller nedlastninger"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "nedlastningsplan"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "nedlastningsalternativer"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "Nedlastningsstasjon"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Send beskjed pr email når jobb er fullført"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Filnavn"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Bruk følgende port range"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "alltid"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "Fra"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Hi-Jack"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Hi-Jack linker"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "timer"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "ignorer"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Umiddelbart"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Maks antall nedlastninger"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Maks nedlastningshastighet"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Maks opplastningshastighet"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload nedlastning"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "min"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Eller"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Side"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "av"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Fremdrift"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Ingen nedlastninger i nedlastningskø..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare nedlastning"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Høyreklikk for kontekstmenyer"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Instillinger"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Vent..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Nedlastningsstasjon aktivert"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Vellykket lagt til : "
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "Til"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "oversett"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Загрузка прямо на ваш Synology Diskstation - Основано на JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology Download Assistant"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Вы уверенны что хотите загрузить"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Отмена"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Загрузить все файлы"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Загрузить все изображения"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Загрузить с Diskstation"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Ошибка при отправке загрузки"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "файлы"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "изображения"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "Загрузка добавлена"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Please unjack first"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "завершена!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Невозможно войти, проверьте имя пользователя, пароль и адрес вашего Diskstation"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "Доступно обновление"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "К расширениям. Нажмите 'Режим разработчика' и обновите расширения."
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Проверить соединение"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Проверить регистрационные данные"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Подключено!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Подключение..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Lots of console output"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Панель управления"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Отладка"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Подробности Diskstation"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Экспериментальные"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Хост"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Неверное имя!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Вошел!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Пароль"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Функции плагина"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Порт"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Превышено время ожидания!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Настройки Synology Download Assistant"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Имя пользователя"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "всегда"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "Авто"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "Настройки сети bittorrrent"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "автоматическая остановка задачи"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "Автоматическая остановка задачи когда"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP порт"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "Настройки загрузки bittorrrent"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Включить сеть DHT"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Макс. разреш. пиров на торрент"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "Диапазон портов bittorrrent"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "Шифрование протокола BitTorrent"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "Скорость раздачи и загрузки bittorrrent"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Коэффициент раздачи"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Время раздачи"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Интеграция в Браузер"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "Подтвердить пароль"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "Панель управления"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Ежедневно"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Использовать стандартный диапазон портов"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "откл"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Загрузить"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Загрузить все"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Загрузить изображения"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Загрузка..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Download Manager"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "Расписание загрузки"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "Настройки загрузк"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "download station"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Отправить уведомление по электронной почте когда загрузится"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Имя файла"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Использовать след. диапазон портов"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "навсегда"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "От"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Hi-Jack"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Ссылки Hi-Jack"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "часов"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "игнорировать"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Немедленно"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Макс. активных загрузок"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Макс. скорость загрузки"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Макс. скорость раздачи"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "Загрузка с megaupload"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "минут"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Или"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Страница"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "из"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Прогресс"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Нет загрузок в очереди..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "Загрузка с rapidshare"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Контекстное меню (правая кнопка мыши)"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Настройки"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Ожидайте..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Download Station вкл"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Успешно добавлено : "
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "Кому"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "перевод"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

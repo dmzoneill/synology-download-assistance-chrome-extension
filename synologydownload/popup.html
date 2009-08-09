@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="css/popup.css" type="text/css" media="screen"/>
+    <script type="text/javascript" src="javascript/jq.js"></script>
+    <script type="text/javascript" src="javascript/popup.js"></script>
+</head>
+<body>
+<table id='mainContentTable' style="border-collapse: collapse;">
+	<tr>
+		<td class="popup_leftside">
+		&nbsp;
+		</td>
+		
+		<td class="popup_main">
+		
+			<div align='center'><br><br>
+			    <a onclick="extend( 'pluginsettings' , 0 );"><img id='imageSettings' class='pointer'> <span id='page_popup_settings_plugin' class='pointer'></span></a>
+			    <a onclick="extend( 'settings' , 0 );"><img id='imageSettingsPlugin' class='pointer'> <span id='page_popup_settings' class='pointer'></span></a>				    				 
+				<a onclick="extend( 'downloadall' , 0 );"><img id='imageDownloadAll' class='pointer'> <span id='page_popup_downall' class='pointer'></span></a>  	
+				<a onclick="extend( 'downloadimages' , 0 );"><img id='imageDownloadImages' class='pointer'> <span id='page_popup_downloadallimages' class='pointer'></span></a>		
+				<a onclick="extend( 'downloads' , 1 );"><img id='imageDownloadManager' class='pointer'> <span id='page_popup_downloadmanager' class='pointer'></span></a> 		    
+			</div>
+
+			<br>
+			<div id='simple' style='display:block' align='center'>
+				<fieldset>
+				<legend id='page_popup_url'></legend>
+					<input class='link' type='text' id='downloadlink'> <img class='popup_action_button' id='imageAccept' onclick='downloadLink()'> 
+				</fieldset>							
+			</div>
+
+			<div id='settings' style='display:none' align='center'>	
+				<table width="100%">	
+				<tr>
+				    <td width="50%" height="100%">
+					    <fieldset>
+					    <legend id='page_popup_download_settings'></legend>
+					    <table>						
+						    <tr>
+							    <td valign='top'>	
+							        <input type='checkbox' id='downloadEnabledCheckbox' onchange='dsmSettingsChanged( this );'> 
+							        <span id='page_popup_station_enabled'></span> 			
+								    <br>								
+								    <br>
+								    <input type='checkbox' id='emailEnabledCheckbox' onchange='dsmSettingsChanged( this );'> 
+								    <span id='page_popup_email_enabled'></span> 			
+								    <br>								
+								    <br>
+							        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id='page_popup_maximum_downloads'></span> 
+								    <select id='maximumDownloadTasksNumField' onchange='dsmSettingsChanged( this );'></select>
+								    <br>														   						
+							    </td>				
+						    </tr>	
+					    </table>
+					    </fieldset>
+				    </td>	
+				    <td width="50%" height="100%">
+					    <fieldset>
+					    <legend id='page_popup_download_schedule'></legend>
+					    <table>						
+						    <tr>
+							    <td colspan='2'>									
+								    <input type='radio' name='schedule' id='scheduleNow' onchange='dsmSettingsChanged( this );'> 
+								    <span id='page_popup_immediately'></span>
+							    </td>
+						    </tr>
+						    <tr>
+						        <td colspan='2'>
+								    <input type='radio' name='schedule' id='scheduleWhen' onchange='dsmSettingsChanged( this );'> 
+								    <span id='page_popup_daily'></span>
+							    </td>
+						    </tr>
+						    <tr>
+						        <td style='padding-left:35px'>
+								    <span id='page_popup_from'></span> : 
+							    </td>
+							    <td>
+							        <select id='fromhour' onchange='dsmSettingsChanged( this );'></select> : <select id='frommin' onchange='dsmSettingsChanged( this );'></select>
+							    </td>
+						    </tr>
+						    <tr>
+							    <td style='padding-left:35px'>
+								    <span id='page_popup_to'></span> : 
+							    </td>
+							    <td>
+							        <select id='tohour' onchange='dsmSettingsChanged( this );'></select> : <select id='tomin' onchange='dsmSettingsChanged( this );'></select>
+							    </td>				
+						    </tr>	
+					    </table>
+					    </fieldset>
+				    </td>				
+				</tr>				
+				<tr>
+				    <td colspan='1'>
+					    <fieldset>
+					    <legend id='page_popup_rapidshare_download'></legend>
+					    <table cellpadding='3'>
+					        <tr>
+							    <td style='padding-left:15px;width:100px;' valign='middle'>
+								    <span id='page_popup_username'></span>
+							    </td>
+							    <td align='left'>
+							        <input type='text' class='popup_input' id='rapidshareUser' onkeyup='dsmSettingsChanged( this );'>
+							    </td>				
+						    </tr>							
+						    <tr>
+							    <td style='padding-left:15px;width:100px' valign='middle'>
+								    <span id='page_popup_password'></span>
+							    </td>
+							    <td align='left'>
+							        <input type='password' class='popup_input' id='rapidsharePass1' onkeyup='dsmSettingsChanged( this );'>
+							    </td>				
+						    </tr>
+						    <tr>
+							    <td style='padding-left:15px;width:100px' valign='middle'>
+								    <span id='page_popup_confirmpassword'></span>
+							    </td>
+							    <td align='left'>
+							        <input type='password' class='popup_input' id='rapidsharePass2' onkeyup='dsmSettingsChanged( this );'>
+							    </td>				
+						    </tr>
+					    </table>
+					    </fieldset>
+				    </td>							
+				    <td colspan='1'>
+					    <fieldset>
+					    <legend id='page_popup_megaupload_download'></legend>
+					    <table cellpadding='3'>						
+						     <tr>
+							    <td style='padding-left:15px;width:100px;' valign='middle'>
+								    <span id='page_popup_username2'></span> 
+							    </td>
+							    <td align='left'>
+							        <input type='text' class='popup_input' id='megauploadUser' onkeyup='dsmSettingsChanged( this );'>
+							    </td>				
+						    </tr>							
+						    <tr>
+							    <td style='padding-left:15px;width:100px' valign='middle'>
+								    <span id='page_popup_password2'></span> 
+							    </td>
+							    <td align='left'>
+							        <input type='password' class='popup_input' id='megauploadPass1' onkeyup='dsmSettingsChanged( this );'>
+							    </td>				
+						    </tr>
+						    <tr>
+							    <td style='padding-left:15px;width:100px' valign='middle'>
+								    <span id='page_popup_confirmpassword2'></span> 
+							    </td>
+							    <td align='left'>
+							        <input type='password' class='popup_input' id='megauploadPass2' onkeyup='dsmSettingsChanged( this );'>
+							    </td>				
+						    </tr>
+					    </table>
+					    </fieldset>
+				    </td>
+				</tr>	
+				<tr>
+				    <td colspan='2'>
+					    <fieldset>
+					    <legend id='page_popup_bittorrent_download_settings'></legend>
+					    <table cellpadding='2' width='100%'>						
+						    <tr>
+							    <td valign='top'>	
+							        <fieldset>
+					                <legend id='page_popup_bittorrent_portrange'></legend>
+					                <table cellpadding='2' width='100%'>						
+						                <tr>
+							                <td valign='top' colspan='2'>	
+							                    <input type='radio' name='portRange' id='portRangeDefault' onchange='dsmSettingsChanged( this );'> 
+							                    <span id='page_popup_default_port_range'></span> 
+							                </td>
+							            </tr>
+							            <tr>
+							                <td valign='top' colspan='2'>
+							                    <input type='radio' name='portRange' id='portRangeCustom' onchange='dsmSettingsChanged( this );'> 
+							                    <span id='page_popup_following_port_range'></span>
+							                </td>
+							            </tr>
+							            <tr>
+							                <td>
+							                   	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							                   	<span id='page_popup_from2'></span> 
+							                   	<input type='text' class='popup_input' id='portFrom' onkeyup='dsmSettingsChanged( this );'> 
+							                </td>
+							                <td>
+							                   	<span id='page_popup_to2'></span> 
+							                   	<input type='text' class='popup_input' id='portTo' onkeyup='dsmSettingsChanged( this );'>
+							                </td>				
+						                </tr>	
+					                </table>
+					                </fieldset>
+					            </td>
+					            <td>		
+					                <fieldset>
+					                <legend id='page_popup_bittorrent_rates'></legend>
+					                <table cellpadding='2' width='100%'>						
+						                <tr>
+							                <td valign='top'>								          
+							                    <span id='page_popup_max_upload'></span> 
+							                </td>
+							                <td>
+							                    <input type='text' class='popup_input' id='maxUploadSpeed' onkeyup='dsmSettingsChanged( this );''>
+							                </td>
+							            </tr>
+							            <tr>
+							                <td>
+							                    <span id='page_popup_max_download'></span> 
+							                </td>
+							                <td>
+							                    <input type='text' class='popup_input' id='maxDownloadSpeed' onkeyup='dsmSettingsChanged( this );'>  	
+							                </td>				
+						                </tr>	
+					                </table><br>
+					                </fieldset>	
+					            </td>
+					        </tr>
+					        <tr>
+					            <td>						            		
+					                <fieldset>
+					                <legend id='page_popup_bittorent_network_settings'></legend>
+					                <table cellpadding='2' width='100%'>						
+						                <tr>
+							                <td>	
+							                    <span id='page_popup_bittorrent_protocol_encryption'></span>
+							                </td>
+							                <td>
+							                    <select id='downloadProtocol' onchange='dsmSettingsChanged( this );'></select>
+							                </td>
+							            </tr>
+							            <tr>
+							                <td>
+							                    <span id='page_popup_bittorrent_peers_torrent'></span> 
+							                </td>
+							                <td>
+							                    <input type='text' class='popup_input' id='maxPeers' onkeyup='dsmSettingsChanged( this );'>	
+							                </td>
+							            </tr>
+							                <td colspan='2'>
+							                    <input type='checkbox' id='enableDHT' onchange='dsmSettingsChanged( this );'> 							               
+							                    <span id='page_popup_bittorrent_enable_dht'></span> 
+							                </td>
+							            </tr>
+							            <tr>
+							                <td>							                    
+							                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id='page_popup_bittorrent_dht_port'></span>
+							                </td>
+							                <td>
+							                    <input type='text' class='popup_input' id='DHTport' onkeyup='dsmSettingsChanged( this );'>							                    
+							                </td>				
+						                </tr>	
+					                </table>
+					                </fieldset>	
+					            </td>
+					            <td>	
+					                <fieldset>
+					                <legend id='page_popup_bittorrent_autostop'></legend>
+					                <table cellpadding='2' width='100%'>						
+						                <tr>
+							                <td colspan='2'>	
+							                    <span id='page_popup_bittorrent_autostop_when'></span>
+							                </td>
+							            </tr>
+							            <tr>
+							                <td> 
+							                    <span id='page_popup_bittorrent_share_ratio'></span> (%) 
+							                </td>
+							                <td>
+							                    <input type='text' class='popup_input' id='sharePercentage' onkeyup='dsmSettingsChanged( this );'>
+							                </td>
+							            </tr>
+							            <tr>
+							                <td colspan='2'> 
+							                   <span id='page_popup_or'></span>	
+							                </td>
+							            </tr>
+							            <tr>
+							                <td> 						                   
+							                    <span id='page_popup_bittorrent_time_reaches'></span> 
+							                </td>
+							                <td>
+							                    <select id='shareTime' onchange='dsmSettingsChanged( this );'></select>				
+							                </td>				
+						                </tr>	
+					                </table>
+					                </fieldset>				
+							    </td>				
+						    </tr>	
+					    </table>
+					    </fieldset>
+				    </td>							
+				</tr>
+				</table>			
+			</div>
+			<div id='pluginsettings' style='display:none' align='center'>	
+				<table cellpadding='2' width='100%'>	
+				<tr>
+				    <td colspan='3' align='center'>
+					    <fieldset>
+					    <legend id='page_popup_browser_integration'></legend>
+					    <table cellpadding='2' width='90%'>						
+						    <tr>
+							    <td>	
+								    <input type='checkbox' id='hijackcheckbox' onchange='hijackChange();'> <span id='hijack'></span> 						
+							    </td>		
+							    <td>	
+								    <input type='checkbox' id='contextCheckbox' onchange='contextChange();'> <span id='page_popup_right_click_menus'></span> 						
+							    </td>			
+							    <td>									    			
+							        Diskstation : <select id='diskstations' onchange='changeDefaultStation()'></select>					
+							    </td>			
+						    </tr>
+					    </table>
+					    </fieldset>
+				    </td>							
+				</tr>
+				<tr>
+				    <td align='center'>
+					    <fieldset>
+					    <legend id='page_popup_downloadall'></legend>
+					    <table cellpadding='2'>						
+						    <tr>
+							    <td valign='top'>								
+								    <input type='text' id="downloadTypesadd" class='popup_input' maxlength='7'>
+								    &nbsp;<img class='popup_action_button imageAdd' onclick="adjustTypes( 'downloadall' , 'add' );">
+								    <br>
+								    <select size='6' id='downloadtypesSelect' class='popup_select'></select>
+								    &nbsp;<img class='popup_action_button imageRemove' onclick="adjustTypes( 'downloadall' , 'del' );">
+							    </td>				
+						    </tr>	
+					    </table>
+					    </fieldset>
+				    </td>
+				    <td align='center'>			
+					    <fieldset>
+					    <legend id='page_popup_downallimages'></legend>	
+					    <table cellpadding='2'>						
+						    <tr>
+							    <td valign='top'>								
+								    <input type='text' id="imageTypesadd" class='popup_input' maxlength='7'>
+								    &nbsp;<img class='popup_action_button imageAdd' onclick="adjustTypes( 'downloadimages' , 'add' );"> 
+							        <br>
+								    <select size='6' id='imageSelect' class='popup_select'></select>
+								    &nbsp;<img class='popup_action_button imageRemove' onclick="adjustTypes( 'downloadimages' , 'del' );"> 
+							    </td>							
+						    </tr>	
+					    </table>	
+					    </fieldset>
+				    </td>
+				    <td align='center'>			
+					    <fieldset>
+					    <legend id='page_popup_hijack'></legend>	
+					    <table cellpadding='2'>						
+						    <tr>
+							    <td valign='top'>								
+								    <input type='text' id="hijackTypesadd" class='popup_input' maxlength='7'>
+								    &nbsp;<img class='popup_action_button imageAdd' onclick="adjustTypes( 'hijack' , 'add' );"> 
+							        <br>
+								    <select size='6' id='hijackedSelect' class='popup_select'></select>
+								    &nbsp;<img class='popup_action_button imageRemove' onclick="adjustTypes( 'hijack' , 'del' );"> 
+							    </td>							
+						    </tr>	
+					    </table>						
+					    </fieldset>
+				    </td>
+				</tr>				
+				</table>			
+			</div>
+			<div id='downloadall' style='display:none'>
+				<div id='downlist'></div>		
+			</div>
+			<div id='downloadimages' style='display:none'>	
+				<div id='imglist'></div>			
+			</div>
+			<div id='downloads' style='display:none' align='center'>	
+			</div>
+			
+			<div align='center'>	
+			    <br>		    
+			    <a id='controlPanelLink' target='_blank' style='text-decoration:none'><img width='16' class='pointer' id='controlPanelLinkImage'> <span id='page_popup_control_panel' class='pointer'></span></a> 			    	
+			    <a id='downloadStationLink' target='_blank' style='text-decoration:none'><img width='16' class='pointer' id='downloadStationLinkImage'> <span id='page_popup_download_station' class='pointer'></span></a> 		
+			    <a id='translateLink' target='_blank' style='text-decoration:none'><img width='16' class='pointer' id='translateLinkImage'> <span id='page_popup_translate' class='pointer'></span></a> 	    
+			    <br>	
+			    <img id='imageBottomLogo'>		    		   		    
+			</div>
+            <input type='hidden' id='loaded' value='0'>
+            
+		</td>
+
+		<td class='popup_rightside'>
+		&nbsp;
+		</td>
+	</tr>
+</table>
+</body>
+</html>

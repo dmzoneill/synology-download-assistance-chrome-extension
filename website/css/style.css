@@ -1,0 +1,686 @@
+*
+{
+	margin:0;
+	outline:0;
+	padding:0;
+}
+
+html,body
+{
+	background:#fff;
+	color:#6d6d6d;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+	height:100%;
+	line-height:18px;
+}
+
+input,textarea,select
+{
+	color:#6d6d6d;
+	font-family:Arial, sans-serif;
+	font-size:12px;
+}
+
+a img
+{
+	border:0;
+}
+
+a
+{
+	color:#0184c4;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+a:hover
+{
+	color:#1c6183;
+	text-decoration:none;
+}
+
+.notext
+{
+	display:block;
+	font-size:0;
+	line-height:0;
+	text-indent:-4000px;
+}
+
+.left,.alignleft
+{
+	display:inline;
+	float:left;
+}
+
+.right,.alignright
+{
+	display:inline;
+	float:right;
+}
+
+.middle
+{
+	display:inline;
+	float:none;
+}
+
+.cl
+{
+	clear:both;
+	display:block;
+	font-size:0;
+	height:0;
+	line-height:0;
+}
+
+.al
+{
+	text-align:left;
+}
+
+.ar
+{
+	text-align:right;
+}
+
+.ac
+{
+	text-align:center;
+}
+
+h2
+{
+	color:#0188c9;
+	font-size:23px;
+	line-height:26px;
+}
+
+h3
+{
+	color:#000;
+	font-size:16px;
+	line-height:20px;
+}
+
+h2,h3
+{
+	font-family:"Trebuchet MS", Arial, sans-serif;
+}
+
+h1#logo
+{
+	float:left;
+	font-size:0;
+	height:74px;
+	line-height:0;
+	width:308px;
+}
+
+h1#logo a
+{
+	background:url(images/logo.gif);
+	display:block;
+	height:74px;
+	text-indent:-4000px;
+}
+
+.shell
+{
+	margin:0 auto;
+	width:980px;
+}
+
+#header
+{
+	background:url(images/header.gif);
+	height:74px;
+}
+
+#navigation
+{
+	float:right;
+	height:30px;
+}
+
+#navigation ul
+{
+	float:left;
+	height:30px;
+	list-style-type:none;
+	padding-top:27px;
+}
+
+#navigation ul li
+{
+	display:inline;
+	float:left;
+	margin-left:10px;
+}
+
+#navigation ul li a
+{
+	background:url(images/nav.gif) no-repeat 0 0;
+	color:#7b7b7b;
+	float:left;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	text-decoration:none;
+	width:110px;
+}
+
+#navigation ul li a:hover,#navigation ul li a.active
+{
+	background-position:right 0;
+	color:#fff;
+}
+
+#slider
+{
+	background:url(images/slider.gif);
+	height:390px;
+}
+
+.slider-holder
+{
+	height:390px;
+	overflow:hidden;
+	position:relative;
+	z-index:100;
+}
+
+.slides
+{
+	height:315px;
+	left:43px;
+	overflow:hidden;
+	position:relative;
+	top:59px;
+	width:894px;
+}
+
+.slides .jcarousel-clip
+{
+	height:315px;
+	overflow:hidden;
+	position:relative;
+	width:894px;
+}
+
+.slides ul
+{
+	height:315px;
+	list-style-type:none;
+	overflow:hidden;
+	position:relative;
+	width:758px;
+}
+
+.slides ul li
+{
+	display:inline;
+	float:left;
+	height:315px;
+	left:-68px;
+	margin:0 0 0 136px;
+	overflow:hidden;
+	position:relative;
+	width:758px;
+}
+
+.slide-shadow
+{
+	background:url(images/slide-shadow.png);
+	bottom:0;
+	height:26px;
+	left:-6px;
+	position:absolute;
+	width:771px;
+}
+
+.slide-bg
+{
+	background:url(images/slide-bg.gif);
+	height:267px;
+	overflow:hidden;
+	padding:5px;
+	position:relative;
+	width:758px;
+}
+
+.slide-image
+{
+	float:left;
+	width:271px;
+}
+
+.slide-info
+{
+	float:left;
+	padding:30px 0 0 15px;
+	width:440px;
+}
+
+.slide-info p
+{
+	padding:13px 0 20px;
+}
+
+.slider-nav
+{
+	font-size:0;
+	line-height:0;
+}
+
+.slider-nav a
+{
+	height:46px;
+	position:absolute;
+	text-indent:-4000px;
+	top:165px;
+	width:43px;
+}
+
+.slider-nav a.prev
+{
+	background:url(images/prev.gif);
+	filter:alpha(opacity=40);
+	left:0;
+	opacity:0.4;
+}
+
+.slider-nav a.next
+{
+	background:url(images/next.gif);
+	filter:alpha(opacity=40);
+	left:937px;
+	opacity:0.4;
+}
+
+.learn-button
+{
+	background:url(images/learn-button.gif);
+	height:37px;
+	width:165px;
+}
+
+#main
+{
+	background:url(images/main.gif) repeat-x 0 0;
+	padding:45px 0 40px;
+	width:100%;
+}
+
+.col
+{
+	display:inline;
+	float:left;
+	margin-right:70px;
+	padding:10px 0;
+	width:280px;
+}
+
+.col-last
+{
+	margin-right:0;
+}
+
+.col h3
+{
+	padding-bottom:12px;
+}
+
+.col p
+{
+	padding-bottom:12px;
+}
+
+.three-cols
+{
+	background:url(images/three-cols.gif) repeat-y center 0;
+	width:100%;
+}
+
+.ico
+{
+	background-position:0 1px;
+	background-repeat:no-repeat;
+	padding-left:26px;
+}
+
+.ico1
+{
+	background-image:url(images/ico1.gif);
+}
+
+.ico2
+{
+	background-image:url(images/ico2.gif);
+}
+
+.ico3
+{
+	background-image:url(images/ico3.gif);
+}
+
+p.more
+{
+	font-size:11px;
+}
+
+p.more a
+{
+	background:url(images/more.gif) no-repeat 0 center;
+	padding-left:11px;
+}
+
+#footer
+{
+	background:url(images/footer.gif);
+	color:#5c5c5c;
+	height:57px;
+	line-height:56px;
+	white-space:nowrap;
+}
+
+#footer span
+{
+	color:#cfcfcf;
+	padding:0 5px;
+}
+
+#footer a
+{
+	color:#5c5c5c;
+	text-decoration:none;
+}
+
+#footer a:hover
+{
+	color:#0184c4;
+}
+
+.push
+{
+	height:57px;
+}
+
+.wrapper
+{
+	height:auto!important;
+	margin:0 auto -57px;
+	min-height:100%;
+}
+
+#downloads
+{
+	color:#333;
+	font-family:georgia, verdana , Garamond;
+	font-size:10pt;
+	padding-left:60px;
+}
+
+.blockProgression1
+{
+    background-image:url(http://www.synologydownloadassistant.com/images/gradient.png);
+	border:1px solid #617077;
+	font-family:verdana;
+	font-size:8pt;
+	height:10px;
+	margin:2px;
+	padding:0;
+	text-align:center;
+}
+
+.blockProgression2
+{
+    background-image:url(http://www.synologydownloadassistant.com/images/gradient.png);
+	border:1px solid #617077;
+	font-family:verdana;
+	font-size:8pt;
+	height:10px;
+	margin:2px;
+	padding:0;
+	text-align:center;
+}
+
+.blockProgression3
+{
+    background-image:url(http://www.synologydownloadassistant.com/images/gradient.png);
+	border:1px solid #617077;
+	font-family:verdana;
+	font-size:8pt;
+	height:10px;
+	margin:2px;
+	padding:0;
+	text-align:center;
+}
+
+.blockProgression4
+{
+    background-image:url(http://www.synologydownloadassistant.com/images/gradient.png);
+	border:1px solid #617077;
+	font-family:verdana;
+	font-size:8pt;
+	height:10px;
+	margin:2px;
+	padding:0;
+	text-align:center;
+}
+
+.tdColor1
+{
+	border-bottom:1px dashed #ededed;
+	color:#666;
+	padding-bottom:3px;
+	padding-top:3px;
+}
+
+.tdColor2
+{
+	border-bottom:1px dashed #dcdcdc;
+	color:#111;
+	padding-bottom:3px;
+	padding-top:3px;
+}
+
+.tdColor1Bar
+{
+	border-bottom:1px dashed #ededed;
+	padding-right:15px;
+}
+
+.tdColor2Bar
+{
+	border-bottom:1px dashed #dcdcdc;
+	padding-right:15px;
+}
+
+.h5notDone
+{
+	color:#E25E09;
+	font-family:verdana;
+	font-size:16pt;
+}
+
+.h5Done
+{
+	color:#0184C4;
+	font-family:verdana;
+	font-size:16pt;
+}
+
+.changeThis
+{
+	color:#F4A208;
+	font-family:verdana;
+	font-size:8pt;
+	font-weight:700;
+	height:12px;
+	margin-left:20px;
+	margin-top:5px;
+	padding-bottom:2px;
+	padding-left:5px;
+	padding-top:2px;
+	width:880px;
+	-khtml-border-radius:.4em;
+	-moz-border-radius:.4em;
+	border:1px solid #ddd;
+}
+
+.changeThisDone
+{
+	color:#0184C4;
+	font-family:verdana;
+	font-size:8pt;
+	font-weight:700;
+	height:12px;
+	margin-left:20px;
+	margin-top:5px;
+	padding-bottom:2px;
+	padding-left:5px;
+	padding-top:2px;
+	width:880px;
+	-khtml-border-radius:.4em;
+	-moz-border-radius:.4em;
+	border:1px solid #ddd;
+}
+
+.untranslated
+{
+	color:#E25E09;
+	font-family:verdana;
+	font-size:9pt;
+	margin-left:24px;
+	margin-top:10px;
+}
+
+.lastupdate
+{
+	color:#666;
+	font-family:verdana;
+	font-size:7pt;
+	margin-right:50px;
+	margin-top:10px;
+	padding-left:700px;
+	text-align:left;
+	width:100%;
+}
+
+.loginForm
+{
+    padding:5px;
+}
+
+
+
+
+.login
+{
+	background:url(http://www.synologydownloadassistant.com/images/user.gif) no-repeat 95% 20%;
+}
+
+.contact
+{
+	background:url(http://www.synologydownloadassistant.com/images/email2.gif) no-repeat 95% 20%;
+}
+
+fieldset div
+{
+	clear:both;
+	margin:.3em 0;
+}
+
+form
+{
+	margin:1em;
+	width:27em;
+}
+
+label
+{
+	float:left;
+	margin-right:1em;
+	text-align:right;
+	width:10em;
+}
+
+legend
+{
+	color:#0b77b7;
+	font-size:1.6em;
+}
+
+legend span
+{
+	text-align:right;
+	width:10em;
+}
+
+.inputBox
+{
+	-khtml-border-radius:.4em;
+	-moz-border-radius:.4em;
+	background:#fafafa;
+	border:1px solid #ddd;
+	font:bold 10pt arial, sans-serif;
+	height: 20px;
+	padding:.15em;
+	width:250px;
+}
+
+input:hover,input:focus
+{
+	background:#f6f6f6;
+	border-color:#0B78B7;
+}
+
+.button
+{
+	-khtml-border-radius:.4em;
+	-moz-border-radius:.4em;
+	background:#fafafa;
+	border:1px solid #ddd;
+	font:bold 10pt arial, sans-serif;
+	height: 25px;
+	padding:.15em;
+	width:190px;
+}
+
+.button:hover
+{
+	-khtml-border-radius:.4em;
+	-moz-border-radius:.4em;
+	background:#0B78B7;
+	border:1px solid #ddd;
+	font:bold 10pt arial, sans-serif;
+	color:#ffffff;
+	height: 25px;
+	padding:.15em;
+	width:190px;
+}
+
+fieldset
+{
+	border:0px solid #ddd;
+	padding:20px;
+}
+
+
+.email
+{
+	width:14em;
+}
+
+input.default
+{
+	color:#bbb;
+}
+
+div.codeblock 
+{
+    overflow: auto;
+    white-space: pre;
+}

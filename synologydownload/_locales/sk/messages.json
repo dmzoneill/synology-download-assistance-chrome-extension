@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Stiahnuť priamo do Vášho Synology Diskstation - Powered by JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology Asistent sťahovania"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Ste si istí, že to chcete stiahnuť"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Zrušiť"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Stiahnuť všetky súbory"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Stiahnuť všetky obrázky"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Stiahnuť z disku"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Chyba pri schvaľovaní sťahovania"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "súbory"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "obrazy"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "Úspešne pridané sťahovanie"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Odznačte najprv, Prosím"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "bolo ukončené!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Nieje možné prihlásiť, skontrolujte svoje prihlasovacie meno, heslo a sieťovú adresu k Vá"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "K dispozícii je nová aktualizácia"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Choďte do rozšírení. Kliknite na Developer mod a potom Aktualizovať rozší extensions now"
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Skontrolujte svoje pripojenie"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Skontrolujte údaje"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Pripojené!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Pripájanie..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Mnoho konzolových výstupov "
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Dashboard"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Ladiť"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Detaily disku"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Experimentálny"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Host"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Nesprávne prihlásenie"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Prihlásený!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Heslo"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Možnosti pripájania"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Port"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Vypršal časový limit!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Možnosti Synology Download asistnt"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Prihlasovacie meno"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "stále"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "auto"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "sieťové nastavenia bittorrentu"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "automaticky zastaviť úlohu"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "Automaticky zastaviť úlohu keď"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "Dht UDP port"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "nastavenia sťahovania bittorentu"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Povoliť DHT sieť"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Maximálny počet peerov na torrent"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "šírka bittorrent portov"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "BitTorrent kryptovací protokol "
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": " bittorrrent upload and download hodnotenie"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Podiel zdieľania dosahuje"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Čas dosiahutia seedovani"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Integrácia prehliadača"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "potvrdenie hesla"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "kontrolný panel"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Denný"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Použit predvolený rozsah portov"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "zakázať"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Sťahovanie"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Stiahnuť všetky"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Stiahnuť obrázky"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Sťahovanie..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Asistent sťahovania"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "organizácia sťahovania"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "nastavenia sťahovania"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "stanica sťahovania"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Odoslať email oznámenie o ukončení úlohy"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Názov súboru"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Použiť nasledujúci rozsah portov"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "navždy"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "Z"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Hi-Jack   "
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Kradnuté linky"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "hours"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "ignorovať"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Ihneď"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Maximum aktívnych downloadov"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Maximálna rýchlosť downloadu"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Maximálna rýchlosť upload"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload download"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "min."
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Alebo"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Strana"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "z"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Stav"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Žiadne sťahovanie "
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare download"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Pravý klik pre kontextové menu"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Nastavenia"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Stand-by..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Stanica pre sťahovanie povolená"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Úspešne pridané :"
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "Do"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "preložiť"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

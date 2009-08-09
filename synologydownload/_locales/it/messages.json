@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Scarica Direttamente nel tuo Synology Diskstation - Powered by JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Assistente Synology Download"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Sei sicuro di volerlo scaricare?"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Cancella"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Scarica Tutti i File"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Scarica Tutte le Immagini"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Scarica con Diskstation"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Errore nell'invio del download"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "Files"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "Immagini"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": " Download aggiunto con successo"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Please unjack first"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "Completato!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Impossibile accedere, controlla il nome utente, password e l'indirizzo di rete del tuo DiskStation"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "Nuovo aggiornamento Disponibile!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Vai in Estensioni. Clicca su 'Modalità Sviluppatore' e poi 'Aggiorna Estensioni' "
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Controlla la Connessione"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Controlla le Credenziali di accesso"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Connesso!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Connessione in Corso..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Maggiori informazioni da console"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Panello di  Controllo"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Debug"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Dettagli Diskstation"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Sperimentale"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Host"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Login non corretto !"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Sei Collegato!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Password"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Opzioni Plugin"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Porta"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Tempo scaduto!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Opzioni Synology Download Assistant"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Nome Utente"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "Sempre"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "auto"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "settaggi rete bittorrrent"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "Arresto automatico attività"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "Arresto automatico attività quando"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "Porta DHT UDP"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "Impostazioni download bittorent"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Abilita rete DHT"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Max. peers permessi per torrent"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "Intervallo porte bittorrrent"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "Protocollo criptazione BitTorrent"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "Velocità bittorrrent upload e download"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Rapporto di condivisione raggiunte"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "tempo di seeding raggiunge"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Browser Integrato"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "Conferma password"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "Pannello di Controllo"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Giornalmente"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Intervallo porte default"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "Disabilitato"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Download"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Scarica Tutto"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Scarica Immagini"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Downloading..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Download Manager"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "download programmati"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "download settings"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "download station"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Invio notifica Mail a lavoro completato"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Nome file"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Uso delle porte disponibili"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "sempre"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "Da"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Hi-Jack"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Hi-Jack links"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "ore"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "ignora"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Immediatamente"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Download massimi attivi"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Velocità massima download"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Velocità massima upload"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload download"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "minuti"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "O"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Pagina"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "di"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Avanzamento"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Nessun download in coda..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare download"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Menu con tasto destro"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Impostazioni"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Standby..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Download Station Abilitato"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Aggiunto con successo :"
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "A"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "Tradotto"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "Indirizzo"
+	}
+
+}

@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Ladda ned direkt till din Synology DiskStation - Powered by JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology Download Assistant"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Är du säker på att du vill ladda ne"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Avbryt"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Ladda ne alla filer"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Ladda ned alla bilder"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Ladda ned med DiskStation"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Error Skicka nedladdning"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "filer"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "bild"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "lyckades lägga till nedladdning"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Vänligen jacka ur först"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "har slutförts!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Det går inte att logga in, kontrollera användarnamn, lösenord och nätverk adressen till din DiskStation"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "Ny uppdatering finns tillgänglig!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Gå till tillägg. Klicka på 'Developer mode' och sedan Uppdatera tillägg nu"
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Kontrollera anslutningen"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Kontrollera autentiseringsuppgifter"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Ansluten!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Ansluter..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Massor av 'console output'"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Instrumentbräda"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Debug"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "DiskStation-Detaljer"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Experimentell"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Värd"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Felaktig inloggning!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Inloggad!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Lösenord"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Plugin Inställningar"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Port"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Timeout!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Synology Download Assistant Inställningar"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Användarnamn"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "alltid"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "auto"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "bittorrrent nätverksinställningar"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "automatiskt stoppa uppgift"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "automatiskt stoppa uppgift när"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP port"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "bittorrrent download inställningar"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Aktivera DHT nätver"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Max. peers tillåtet per torrent"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "bittorrrent port omfång"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "BitTorrent protokoll kryptering"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "bittorrrent upp-och nedladdning hastighet"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Delningskvoten når"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Seeding-tid reaches"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Browser-integration"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "bekräfta lösenord"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "kontrollpanel"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Daglig"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Använd standardportomfång"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "avaktivera"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Ladda ned"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Ladda ned allt"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Ladda ned Bilder"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Nedladdning pågår..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Download Manager"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "nedladdningsschema"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "Nedladdningsinställningar"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "download station"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Skicka e-post meddelande när uppgiften har slutförts"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Filnamn"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Use the following port range"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "föralltid"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "Från"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Hi-Jack"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Hi-Jack länkar"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "timmar"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "ignorera"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Omedelbart"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Maximalt aktiva nedladdningar"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Maxima nedladdningshastighet"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Maximal uppladdningshastighet"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload nedladdning"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "mins"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Eller"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Sida"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "av"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Framsteg"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Inga nedladdningar i nedladdningskön..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare nedladdning"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Högerklicka försnabbmenyer"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Inställningar"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Standby..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Download Station Aktiverad"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Lagts till:"
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "Till"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "översätt"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

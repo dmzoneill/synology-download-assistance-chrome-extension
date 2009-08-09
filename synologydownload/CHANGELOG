@@ -1,0 +1,299 @@
+#################################################################################
+# Version 2.02
+#################################################################################
+
+ 1.  Updated translations 
+
+#################################################################################
+# Version 2.00
+#################################################################################
+
+ 1.  Stable
+
+#################################################################################
+# Version 1.991
+#################################################################################
+
+ 1.  Added es && sv && cs language translation pack
+
+
+#################################################################################
+# Version 1.989
+#################################################################################
+
+ 1.  Added nb ( norwegian ) language translation pack
+
+
+#################################################################################
+# Version 1.988
+#################################################################################
+
+ 1.  Added chinese language translation pack
+ 2.  Deprecated 1.987 and all image locations in favour of to come themeing 
+     support
+
+#################################################################################
+# Version 1.987
+#################################################################################
+ 
+ 1.  Started theming support
+     Modified backend support and url changes to get people to move to new urls
+     So that i can clean up and prepare the UI for the website.
+ 2.  Changed some urls that were deprecated and being redirected
+ 3.  Browser and plugin optimization
+
+#################################################################################
+# Version 1.982
+#################################################################################
+ 
+ 1.  Minor fix for multiple diskstation change
+
+#################################################################################
+# Version 1.981
+#################################################################################
+ 
+ 1.  Added support for multiple diskstations
+ 2.  Added popup disable for connection issues and tighter options connection 
+     enforecement
+
+#################################################################################
+# Version 1.980
+#################################################################################
+ 
+ 1.  Improved messaging passsing
+ 2.  Added control panel for download manager
+ 3.  Limited notificatiosn for download completed to 1
+ 4.  speed indicators for downloads
+ 5.  context menus
+ 6.  Complete redonce download all and download all images
+ 7.  Improved hijackers
+ 8.  Rapidsahre and megaupload support
+ 9.  Lots more!
+
+
+#################################################################################
+# Version 1.83
+#################################################################################
+ 
+ 1.  Fixes to the german translation
+ 2.  New theme
+ 
+#################################################################################
+# Version 1.82
+#################################################################################
+ 
+ 1.  HTTPS!!!!!!!!!!!!!!!!!!!!!!!!!
+     If you see this 
+     http://techteeter.slowpoison.net/wp-uploads/2010/03/chrome-untrusted-conn.png
+	dont come crying to me!!!
+     Plugin will simply not work unless the security certificate is valid
+ 
+ 
+#################################################################################
+# Version 1.81
+#################################################################################
+ 
+ 1.  Finally found a race condition in the javascript events that 
+     i believe was causing the 'aw snap' pages in chrome :)
+ 2.  Remove the experiemtenal dashboard - 
+     Replace with changing download speeds on synology icon
+ 
+ 
+#################################################################################
+# Version 1.76
+#################################################################################
+ 
+ 1. Updated Dutch ( NL ) local language, thanks to Sander
+ 
+	Due to the nature of the of the way chrome enables extensions.
+	It means every word i add i have to add a trasnlation to 60 + files.
+	
+	Therefore, because of this i'm waiting for requests to come in, 
+	so i can make one major update to version 2.00
+		
+	Please submit feature requests and or improvemnts so that i can get to 
+	this release sooner
+ 
+#################################################################################
+# Version 1.75
+#################################################################################
+ 
+ 1. SSL support
+ 2. Bug fixes
+ 
+ 
+#################################################################################
+# Version 1.73
+#################################################################################
+ 
+ 1. Language Translations for 43 languages
+ 
+ bg  ca  da  el  
+ en_GB  es  et  
+ fil  hi  hu  it  
+ lt  nb  pt  ru  
+ sl  sv th  uk  
+ zh  ar  cs  de  
+ en  en_US fi  
+ fr  he  hr  id  
+ ja  ko  lv  nl  
+ pl ro  sk  sr  
+ sw  tr  vi  
+ 
+#################################################################################
+# Version 1.71
+#################################################################################
+ 
+ 1. Fix for options page, false reporting of sucessfull login
+ 
+#################################################################################
+# Version 1.69
+#################################################################################
+ 
+ 1. Speed improvement for popup page
+ 
+#################################################################################
+# Version 1.68
+#################################################################################
+ 
+ 1. Added French and Hungarian Support
+        French : Tom Granger
+     Hungarian : Joc
+ 
+#################################################################################
+# Version 1.67
+#################################################################################
+ 
+ 1. Minor bug fix, downloads weren't showing!
+ 
+#################################################################################
+# Version 1.66
+#################################################################################
+ 
+ 1. Addeded multilingual support
+ 2. To get your language ( personalized )	
+	
+        am ar bg bn ca cs da de el en en_GB en_US es es_419 et fi fil fr 
+        gu he hi hr hu id it ja kn ko lt lv ml mr nb nl or pl pt pt_BR 
+        pt_PT ro ru sk sl sr sv sw ta te th tr uk vi zh zh_CN zh_TW
+ 
+	Downlaod the following file
+	http://www.feeditout.com/chrome/SynologyDownloadAssistant/messages.json
+ 
+	and send it to dave@feeditout.com
+ 
+	only change 
+	
+	"message" = " CHANGE THIS "
+ 
+	subject synology translation
+	body yo
+	attachment messages.json
+ 
+ 3. All other languages will be translated with google translate in next release
+ 
+#################################################################################
+# Version 1.62
+#################################################################################
+ 
+ 1. Added Download manager from popup menu
+ 
+ 
+#################################################################################
+# Version 1.57
+#################################################################################
+ 
+ 1. Added support for all types specified  ( download all )
+ 2. Bug fix, for aw snap ( that ocassionaly came up )
+ 
+ 
+#################################################################################
+# Version 1.56
+#################################################################################
+ 
+ 1. Auto checks for updates
+ 2. more cleanup and bug fixes
+ 
+#################################################################################
+# Version 1.54
+#################################################################################
+ 
+ 1. Added upgrade page, since google fails to notify you of updates!
+ 2. Added prompt for download all option ( stop you downloading 200 images ) :)
+ 3. Some other fixes
+ 4. Code cleanups
+ 
+ 
+#################################################################################
+# Version 1.52
+#################################################################################
+ 
+ 1. New popup to the right of location bar ( new images )
+ 
+ >>> Settings
+ >>>>>> Download all types, change download all types on the fly
+ >>>>>> Hi-Jack Types, next release, still hijacks torrents only
+ >>> Download All on page ( working )
+ >>> Download all images ( working )
+ >>> Turn on / off link hijacking on the fly ( no page refresh )
+ 
+ 2. Numerous other improvements
+ 
+ 
+#################################################################################
+#Version 1.33
+#################################################################################
+note this release is work in progress, working on webpage dashboard integration
+ 
+ 1. cleaned up options page
+ 2. numerous bug fixes and code improvements
+ 3. experimental dashboard
+ 4. started support for ssl
+ 
+ 
+#################################################################################
+# Version 1.26
+#################################################################################
+ 
+ 1. Get notifications of complete downloads
+ 2. code cleanup
+ 
+	see screenshots for notifications
+ 
+ 
+#################################################################################
+# Version 1.23
+#################################################################################
+ 
+ 1. Minor improvements.. 
+ 2. removed additional onclick handlers from torrent links
+ 3. Changed link tool tip to "Download with diskstation"
+ 
+ 
+#################################################################################
+# Version 1.21
+#################################################################################
+ 
+ 1. Add support for all sites that have torrent links in the format http* .torrrent.
+ 
+	Added special support for
+	 a. www.mininova.org
+	 b. www.torrentportal.com
+	 c. torrentreactor.net
+ 
+	many more
+ 
+ 
+#################################################################################
+# Version 1.11
+#################################################################################
+ 
+ 1. Changed notification type ( See screenshot )
+ 2. Updated options page
+ 
+ 
+#################################################################################
+# Version 1.0
+#################################################################################
+ 
+	This is the first release version.

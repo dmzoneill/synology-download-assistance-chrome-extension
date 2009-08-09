@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/subversion/!svn/ver/36/javascript
+END
+jq.js
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/subversion/!svn/ver/32/javascript/jq.js
+END
+options.js
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/subversion/!svn/ver/28/javascript/options.js
+END
+content_script.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/subversion/!svn/ver/20/javascript/content_script.js
+END
+background.js
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/subversion/!svn/ver/36/javascript/background.js
+END
+jg.js
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/subversion/!svn/ver/1/javascript/jg.js
+END
+popup.js
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/subversion/!svn/ver/32/javascript/popup.js
+END

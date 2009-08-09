@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Download Directly to your Synology Diskstation - Powered by JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Synology Download Assistant"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Are you sure you want to download"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Cancel"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Download All Files"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Download All Images"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Download With Diskstation"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Error Submitting Download"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "files"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "images"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "Sucessfully Added Download"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Please unjack first"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "has completed!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Unable to login, check the username, password and network address to your diskstation"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "New update available!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Go to extensions. Click Developer mode and then Update extensions now"
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Check Connection"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Check Credentials"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Connected!"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Connecting..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Lots of console output"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Dashboard"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Debug"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Diskstation Details"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Experimental"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Host"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Incorrect Login!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Logged in!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "Password"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Plugin Options"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Port"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Timed out!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Synology Download Assistant Options"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Username"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "always"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "auto"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "bittorrrent network setting"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "auto stop task"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "Auto stop task when"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP port"
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "bittorrrent download setting"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Enable DHT network"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Max. peers allowed per torrent"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "bittorrrent port range"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "BitTorrent protocol encryption"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "bittorrrent upload and download rates"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Share ratio reaches"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Seeding time reaches"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Browser Integration"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "confirm password"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "control panel"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Daily"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Use default port range"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "disable"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Download"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Download All"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Download Images"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Downloading..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Download Manager"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "download schedule"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "download settings"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "download station"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Send email notification upon task completion"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Filename"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Use the following port range"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "forever"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "From"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Hi-Jack"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Hi-Jack links"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "hours"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "ignore"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Immediately"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Maximum Active Downloads"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Max download rate"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Max upload rate"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "megaupload download"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "mins"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Or"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Page"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "of"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "Progress"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "No downloads in download queue..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "rapidshare download"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Right click context menus"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Settings"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Standby..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Download Station Enabled"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Successfully Added : "
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "To"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "translate"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}

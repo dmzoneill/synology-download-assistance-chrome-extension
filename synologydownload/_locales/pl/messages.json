@@ -1,0 +1,458 @@
+{
+
+	"chrome_extension_description" : 
+	{
+		"message": "Pobierz bezpośrednio do twojego Synology Diskstation - Wspierane przez JQuery!"
+	},
+
+	"chrome_extension_name" : 
+	{
+		"message": "Asystent Pobierania Synology"
+	},
+
+	"contentscript_areyousure" : 
+	{
+		"message": "Czy jesteś pewien że  chcesz uruchomić pobieranie"
+	},
+
+	"contentscript_cancel" : 
+	{
+		"message": "Anuluj"
+	},
+
+	"contentscript_downloadallfiles" : 
+	{
+		"message": "Pobierz wszystkie pliki"
+	},
+
+	"contentscript_downloadallimages" : 
+	{
+		"message": "Pobierz wszystkie obrazy"
+	},
+
+	"contentscript_downloadwith" : 
+	{
+		"message": "Pobierz z  Diskstation"
+	},
+
+	"contentscript_errorsubmit" : 
+	{
+		"message": "Błąd wysyłania"
+	},
+
+	"contentscript_files" : 
+	{
+		"message": "pliki"
+	},
+
+	"contentscript_images" : 
+	{
+		"message": "obrazy"
+	},
+
+	"contentscript_sucesssubmit" : 
+	{
+		"message": "Pomyślnie dodano"
+	},
+
+	"contentscript_unjackfirst" : 
+	{
+		"message": "Please unjack first"
+	},
+
+	"page_background_completed" : 
+	{
+		"message": "zakończono!"
+	},
+
+	"page_background_loginerror" : 
+	{
+		"message": "Problem z logowaniem, sprawdź nazwę użytkownika, hasło i adres sieciowy do twojego dysku"
+	},
+
+	"page_background_newupdate" : 
+	{
+		"message": "Nowa aktualizacja jest dostępna!"
+	},
+
+	"page_background_newupdate_help" : 
+	{
+		"message": "Idź do rozszerzeń. Kliknij Tryb Deweloperski i uaktualnij rozszerzenia teraz"
+	},
+
+	"page_options_check_connection" : 
+	{
+		"message": "Sprawdź Połączenie"
+	},
+
+	"page_options_check_credentials" : 
+	{
+		"message": "Sprawdź uprawnienia"
+	},
+
+	"page_options_connected" : 
+	{
+		"message": "Połączono"
+	},
+
+	"page_options_connecting" : 
+	{
+		"message": "Łączenie..."
+	},
+
+	"page_options_console_output" : 
+	{
+		"message": "Zagubiono wynik konsoli"
+	},
+
+	"page_options_dashboard" : 
+	{
+		"message": "Pulpit"
+	},
+
+	"page_options_debug" : 
+	{
+		"message": "Debug"
+	},
+
+	"page_options_diskstation_details" : 
+	{
+		"message": "Szczegóły twojego Diskstation"
+	},
+
+	"page_options_experimental" : 
+	{
+		"message": "Eksperymentalne"
+	},
+
+	"page_options_host" : 
+	{
+		"message": "Host"
+	},
+
+	"page_options_incorrectlogin" : 
+	{
+		"message": "Niepoprawny Login!"
+	},
+
+	"page_options_loggedin" : 
+	{
+		"message": "Zalogowano!"
+	},
+
+	"page_options_password" : 
+	{
+		"message": "H"
+	},
+
+	"page_options_plugin_options" : 
+	{
+		"message": "Opcje Dodatków"
+	},
+
+	"page_options_port" : 
+	{
+		"message": "Port"
+	},
+
+	"page_options_timeout" : 
+	{
+		"message": "Przekroczono czas oczekiwania!"
+	},
+
+	"page_options_title" : 
+	{
+		"message": "Opcje asystenta pobierania"
+	},
+
+	"page_options_username" : 
+	{
+		"message": "Użytkownik"
+	},
+
+	"page_popup_always" : 
+	{
+		"message": "zawsze"
+	},
+
+	"page_popup_auto" : 
+	{
+		"message": "auto"
+	},
+
+	"page_popup_bittorent_network_settings" : 
+	{
+		"message": "ustawienia sieci BitTorrrent"
+	},
+
+	"page_popup_bittorrent_autostop" : 
+	{
+		"message": "auto zatrzymanie zadania"
+	},
+
+	"page_popup_bittorrent_autostop_when" : 
+	{
+		"message": "Automatycznie zatrzymaj zadanie gry"
+	},
+
+	"page_popup_bittorrent_dht_port" : 
+	{
+		"message": "DHT UDP port "
+	},
+
+	"page_popup_bittorrent_download_settings" : 
+	{
+		"message": "ustawienia pobierania BitTorrrent"
+	},
+
+	"page_popup_bittorrent_enable_dht" : 
+	{
+		"message": "Włącz sieć DHT"
+	},
+
+	"page_popup_bittorrent_peers_torrent" : 
+	{
+		"message": "Max. peers dozwolonych dla torrenta"
+	},
+
+	"page_popup_bittorrent_portrange" : 
+	{
+		"message": "zakres portów BitTorrrent"
+	},
+
+	"page_popup_bittorrent_protocol_encryption" : 
+	{
+		"message": "Protokół szyfrujący BitTorrent"
+	},
+
+	"page_popup_bittorrent_rates" : 
+	{
+		"message": "Konfiguracja transferu pobierania  i wysyłania BitTorrent"
+	},
+
+	"page_popup_bittorrent_share_ratio" : 
+	{
+		"message": "Share ratio reaches"
+	},
+
+	"page_popup_bittorrent_time_reaches" : 
+	{
+		"message": "Seeding time reaches"
+	},
+
+	"page_popup_browser_integration" : 
+	{
+		"message": "Integracja z przeglądarka"
+	},
+
+	"page_popup_confirmpassword" : 
+	{
+		"message": "potwierdź hasło"
+	},
+
+	"page_popup_control_panel" : 
+	{
+		"message": "panel kontrolny"
+	},
+
+	"page_popup_daily" : 
+	{
+		"message": "Dziennie"
+	},
+
+	"page_popup_default_port_range" : 
+	{
+		"message": "Używaj domyślnych zakresów portów"
+	},
+
+	"page_popup_disable" : 
+	{
+		"message": "wyłącz"
+	},
+
+	"page_popup_download" : 
+	{
+		"message": "Pobierz"
+	},
+
+	"page_popup_downloadall" : 
+	{
+		"message": "Pobierz wszystko"
+	},
+
+	"page_popup_downloadallimages" : 
+	{
+		"message": "Pobierz obrazy"
+	},
+
+	"page_popup_downloading" : 
+	{
+		"message": "Pobieranie..."
+	},
+
+	"page_popup_downloadmanager" : 
+	{
+		"message": "Menedżer Pobierania"
+	},
+
+	"page_popup_download_schedule" : 
+	{
+		"message": "planowanie pobierania"
+	},
+
+	"page_popup_download_settings" : 
+	{
+		"message": "ustawienia pobierania"
+	},
+
+	"page_popup_download_station" : 
+	{
+		"message": "pobieranie"
+	},
+
+	"page_popup_email_enabled" : 
+	{
+		"message": "Wyślij maila z powiadomieniem, kiedy zadanie zostanie zakończone"
+	},
+
+	"page_popup_filename" : 
+	{
+		"message": "Nazwa pliku"
+	},
+
+	"page_popup_following_port_range" : 
+	{
+		"message": "Użyj określononych zakresów portów"
+	},
+
+	"page_popup_forever" : 
+	{
+		"message": "na zawsze"
+	},
+
+	"page_popup_from" : 
+	{
+		"message": "Od"
+	},
+
+	"page_popup_hijack" : 
+	{
+		"message": "Hi-Jack"
+	},
+
+	"page_popup_hijacklinks" : 
+	{
+		"message": "Hi-Jack linki"
+	},
+
+	"page_popup_hours" : 
+	{
+		"message": "godziny"
+	},
+
+	"page_popup_ignore" : 
+	{
+		"message": "ignoruj"
+	},
+
+	"page_popup_immediately" : 
+	{
+		"message": "Natychmiast"
+	},
+
+	"page_popup_maximum_downloads" : 
+	{
+		"message": "Maksymalnie pobieraj"
+	},
+
+	"page_popup_max_download" : 
+	{
+		"message": "Maksymalny wskaźnik pobierania"
+	},
+
+	"page_popup_max_upload" : 
+	{
+		"message": "Maksymalny wskaźnik wysył"
+	},
+
+	"page_popup_megaupload_download" : 
+	{
+		"message": "Pobieranie z serwerów megaupload"
+	},
+
+	"page_popup_minutes" : 
+	{
+		"message": "min"
+	},
+
+	"page_popup_or" : 
+	{
+		"message": "Lub"
+	},
+
+	"page_popup_page" : 
+	{
+		"message": "Strona"
+	},
+
+	"page_popup_pageof" : 
+	{
+		"message": "z"
+	},
+
+	"page_popup_progress" : 
+	{
+		"message": "postęp"
+	},
+
+	"page_popup_queue_empty" : 
+	{
+		"message": "Brak zadań pobierania w kolejce..."
+	},
+
+	"page_popup_rapidshare_download" : 
+	{
+		"message": "Pobieranie z serwerów rapidshare"
+	},
+
+	"page_popup_right_click_menus" : 
+	{
+		"message": "Kliknij prawym klawiszem aby uruchomić menu kontekstowe"
+	},
+
+	"page_popup_settings" : 
+	{
+		"message": "Ustawienia"
+	},
+
+	"page_popup_standby" : 
+	{
+		"message": "Stan wstrzymania..."
+	},
+
+	"page_popup_station_enabled" : 
+	{
+		"message": "Stacja Pobierania Włączona"
+	},
+
+	"page_popup_successful" : 
+	{
+		"message": "Poprawnie dodano : "
+	},
+
+	"page_popup_to" : 
+	{
+		"message": "Do"
+	},
+
+	"page_popup_translate" : 
+	{
+		"message": "Tłumaczenie"
+	},
+
+	"page_popup_url" : 
+	{
+		"message": "URL"
+	}
+
+}
