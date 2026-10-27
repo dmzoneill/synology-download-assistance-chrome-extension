@@ -1,5 +1,9 @@
 # Synology Download Assistant (Chrome extension)
 
+<p align="center">
+  <img src=".github/logo.png" alt="synology-download-assistance-chrome-extension logo" width="128" />
+</p>
+
 A Chrome extension that sends downloads to the Download Station app on a
 Synology NAS and manages them from the browser.
 
