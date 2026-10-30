@@ -589,21 +589,21 @@ function pluginSettingsLoad()
 
 	for( var t = 0; t < arrDtypes.length; t++ )
 	{
-		$( "#downloadtypesSelect" ).append( "<option value='" + arrDtypes[ t ] + "'>" + arrDtypes[ t ] + "</option>" );
+		$( "#downloadtypesSelect" ).append( $( "<option>" ).val( arrDtypes[ t ] ).text( arrDtypes[ t ] ) );
 	}
 
 	var arrHtypes = htypes.split( ',' );
 
 	for( var t = 0; t < arrHtypes.length; t++ )
 	{
-		$( "#hijackedSelect" ).append( "<option value='" + arrHtypes[ t ] + "'>" + arrHtypes[ t ] + "</option>" );
+		$( "#hijackedSelect" ).append( $( "<option>" ).val( arrHtypes[ t ] ).text( arrHtypes[ t ] ) );
 	}	
 	
 	var arrItypes = itypes.split( ',' );
 
 	for( var t = 0; t < arrItypes.length; t++ )
 	{
-		$( "#imageSelect" ).append( "<option value='" + arrItypes[ t ] + "'>" + arrItypes[ t ] + "</option>" );
+		$( "#imageSelect" ).append( $( "<option>" ).val( arrItypes[ t ] ).text( arrItypes[ t ] ) );
 	}		
 	
 	if( localStorage.getItem( "hijack" ) == "1" )
@@ -1165,7 +1165,7 @@ function adjustTypes( what , action )
 		if( action == "add" )
 		{
 			var valadd = $( "#downloadTypesadd" ).val();
-			$( "#downloadtypesSelect" ).prepend( "<option value='" + valadd + "'>" + valadd + "</option>" );
+			$( "#downloadtypesSelect" ).prepend( $( "<option>" ).val( valadd ).text( valadd ) );
 			$( "#downloadTypesadd" ).val( "" );
 		}
 		else
@@ -1183,7 +1183,7 @@ function adjustTypes( what , action )
 		if( action == "add" )
 		{
 			var valadd = $( "#imageTypesadd" ).val();
-			$( "#imageSelect" ).prepend( "<option value='" + valadd + "'>" + valadd + "</option>" );
+			$( "#imageSelect" ).prepend( $( "<option>" ).val( valadd ).text( valadd ) );
 			$( "#imageTypesadd" ).val( "" );
 		}
 		else
@@ -1201,7 +1201,7 @@ function adjustTypes( what , action )
 		if( action == "add" )
 		{
 			var valadd = $( "#hijackTypesadd" ).val();
-			$( "#hijackedSelect" ).prepend( "<option value='" + valadd + "'>" + valadd + "</option>" );
+			$( "#hijackedSelect" ).prepend( $( "<option>" ).val( valadd ).text( valadd ) );
 			$( "#hijackTypesadd" ).val( "" );
 		}
 		else
