@@ -1,5 +1,4 @@
 /* global $, chrome */
-/* exported downloadStatistics, deleteAll, pauseAll, resumeAll, clearTask, changeDefaultStation, downloadALL, downloadALLImages, hijackChange, contextChange, dsmSettingsLoad, dsmSettingsChanged */
 var downloadids = new Array();
 var refreshDownloads = false;
 var imageBase = "http://www.synologydownloadassistant.com/themes/default/";
@@ -1613,3 +1612,17 @@ $(document).ready(function () {
     );
   }
 });
+
+// Handlers referenced from popup.html and other extension scripts
+window.downloadStatistics = downloadStatistics;
+window.deleteAll = deleteAll;
+window.pauseAll = pauseAll;
+window.resumeAll = resumeAll;
+window.clearTask = clearTask;
+window.changeDefaultStation = changeDefaultStation;
+window.downloadALL = downloadALL;
+window.downloadALLImages = downloadALLImages;
+window.hijackChange = hijackChange;
+window.contextChange = contextChange;
+window.dsmSettingsLoad = dsmSettingsLoad;
+window.dsmSettingsChanged = dsmSettingsChanged;
