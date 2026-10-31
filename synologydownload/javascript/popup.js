@@ -1,3 +1,4 @@
+/* global $, chrome */
 var downloadids = new Array();
 var refreshDownloads = false;
 var imageBase = "http://www.synologydownloadassistant.com/themes/default/";
@@ -10,8 +11,8 @@ function downloadStatistics() {
   this.uploadIntervals = new Array();
 
   this.add = function (val) {
-    var up = round(val.up);
-    var down = round(val.down);
+    var up = Math.round(val.up);
+    var down = Math.round(val.down);
     this.currentSize++;
 
     if (this.currentSize < this.maxSize) {
@@ -266,7 +267,6 @@ function extend(block, blockopt) {
               },
               function (response) {
                 var downloads = response.data;
-                var bgpage = chrome.extension.getBackgroundPage();
 
                 var types = [
                   "aac",
@@ -397,7 +397,6 @@ function extend(block, blockopt) {
               },
               function (response) {
                 var downloads = response.data;
-                var bgpage = chrome.extension.getBackgroundPage();
 
                 if (downloads.length > 0) {
                   $("#imglist").empty();
@@ -516,9 +515,9 @@ function extend(block, blockopt) {
               var c_page = 1;
             } else if (blockopt > pagecount) {
               blockopt = pagecount;
-              var c_page = pagecount;
+              c_page = pagecount;
             } else {
-              var c_page = blockopt;
+              c_page = blockopt;
             }
 
             var itemnum = 1;
@@ -727,7 +726,7 @@ function pluginSettingsLoad() {
 
   var arrHtypes = htypes.split(",");
 
-  for (var t = 0; t < arrHtypes.length; t++) {
+  for (t = 0; t < arrHtypes.length; t++) {
     $("#hijackedSelect").append(
       $("<option>").val(arrHtypes[t]).text(arrHtypes[t]),
     );
@@ -735,7 +734,7 @@ function pluginSettingsLoad() {
 
   var arrItypes = itypes.split(",");
 
-  for (var t = 0; t < arrItypes.length; t++) {
+  for (t = 0; t < arrItypes.length; t++) {
     $("#imageSelect").append(
       $("<option>").val(arrItypes[t]).text(arrItypes[t]),
     );
@@ -773,8 +772,6 @@ function dsmSettingsLoad() {
   $.post(url, { action: "load" }, function (data) {
     var json = $.parseJSON(data);
 
-    var emuleEnabled = json.data.enable_emule;
-
     if (json.data.enabledownload == true) {
       $("#downloadEnabledCheckbox").attr("checked", true);
     } else {
@@ -782,7 +779,7 @@ function dsmSettingsLoad() {
     }
   });
 
-  var url =
+  url =
     protocol +
     "://" +
     localStorage.getItem("host" + defaultStation) +
@@ -830,7 +827,7 @@ function dsmSettingsLoad() {
       if (r < 10) {
         var thehour = "0" + r;
       } else {
-        var thehour = r;
+        thehour = r;
       }
 
       if (json.data.from_hr == r) {
@@ -868,11 +865,11 @@ function dsmSettingsLoad() {
     var selectedFromMin = "";
     var selectedToMin = "";
 
-    for (var r = 0; r < 60; r++) {
+    for (r = 0; r < 60; r++) {
       if (r < 10) {
         var themin = "0" + r;
       } else {
-        var themin = r;
+        themin = r;
       }
 
       if (json.data.from_min == r) {
@@ -908,7 +905,7 @@ function dsmSettingsLoad() {
     }
   });
 
-  var url =
+  url =
     protocol +
     "://" +
     localStorage.getItem("host" + defaultStation) +
@@ -1139,7 +1136,7 @@ function dsmSettingsChanged(element) {
     return;
   }
 
-  var url =
+  url =
     protocol +
     "://" +
     localStorage.getItem("host" + defaultStation) +
@@ -1184,7 +1181,7 @@ function dsmSettingsChanged(element) {
     );
   }
 
-  var url =
+  url =
     protocol +
     "://" +
     localStorage.getItem("host" + defaultStation) +
@@ -1319,7 +1316,7 @@ function adjustTypes(what, action) {
     }
   } else if (what == "downloadimages") {
     if (action == "add") {
-      var valadd = $("#imageTypesadd").val();
+      valadd = $("#imageTypesadd").val();
       $("#imageSelect").prepend($("<option>").val(valadd).text(valadd));
       $("#imageTypesadd").val("");
     } else {
@@ -1331,7 +1328,7 @@ function adjustTypes(what, action) {
     }
   } else {
     if (action == "add") {
-      var valadd = $("#hijackTypesadd").val();
+      valadd = $("#hijackTypesadd").val();
       $("#hijackedSelect").prepend($("<option>").val(valadd).text(valadd));
       $("#hijackTypesadd").val("");
     } else {
@@ -1555,7 +1552,7 @@ function documentReady() {
     "/";
   $("#controlPanelLink").attr("href", url);
 
-  var url =
+  url =
     protocol +
     "://" +
     localStorage.getItem("host" + defaultStation) +
@@ -1564,7 +1561,7 @@ function documentReady() {
     "/download/";
   $("#downloadStationLink").attr("href", url);
 
-  var url =
+  url =
     "http://www.synologydownloadassistant.com/community.php?action=translate";
   $("#translateLink").attr("href", url);
 
@@ -1615,3 +1612,17 @@ $(document).ready(function () {
     );
   }
 });
+
+// Handlers referenced from popup.html and other extension scripts
+window.downloadStatistics = downloadStatistics;
+window.deleteAll = deleteAll;
+window.pauseAll = pauseAll;
+window.resumeAll = resumeAll;
+window.clearTask = clearTask;
+window.changeDefaultStation = changeDefaultStation;
+window.downloadALL = downloadALL;
+window.downloadALLImages = downloadALLImages;
+window.hijackChange = hijackChange;
+window.contextChange = contextChange;
+window.dsmSettingsLoad = dsmSettingsLoad;
+window.dsmSettingsChanged = dsmSettingsChanged;
